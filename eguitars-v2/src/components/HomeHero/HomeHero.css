@@ -1,0 +1,35 @@
+.hero {
+  background-image: url("./home33.jpg");
+  background-size: cover;
+  min-height: 800px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Cinzel", serif;
+  font-size: 30px;
+  text-shadow: black 2px 2px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.hero h3 {
+  padding-top: 50px;
+}
+
+.hero p {
+  padding: 10px 10px;
+}
+
+body {
+  background-color: #7b808a;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 35px;
+  }
+}

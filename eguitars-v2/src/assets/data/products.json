@@ -1,0 +1,183 @@
+[
+  {
+    "image": "img/prsproduct1.jpg",
+    "title": "PRS CE 24 Electric Guitar (Faded Purpleburst)",
+    "price": "$1,999 USD",
+    "description": "A stunning, expertly designed tool of sonic beauty with the the best tonal versitility. The PRS CE 24 offers one of the best playing experiences ever. One of the central focuses of its design is the bolt-on neck which is where its snappy response and classic feel come from.",
+    "features": [
+      "Ebony Fretboard",
+      "3 Way Pickup Switch, Push/Pull Coil Tapping",
+      "PRS Phase III Locking Tuners",
+      "PRS Patented Tremelo Bridge",
+      "PRS 85/15 Bass and Treble Pickups"
+    ],
+    "type": "Electric",
+    "range": "Low"
+  },
+  {
+    "image": "img/silversky.jpg",
+    "title": "PRS Silver Sky Electric Guitar (Orion Green)",
+    "price": "$2,299 USD",
+    "description": "One of the most anticipated signature PRS guitar releases of the last decade: The PRS Silver sky. A collaboration between Paul Reed Smith and John Mayer, the Silver Sky takes inspiration from the classic bolt-on electric guitars and turns decades of guitar research on its head. Incorporating Mayer and Smith's favorite elements of classic instruments such as the 1963-1964 fender stratocaster model with an eye toward modernization.",
+    "features": [
+      "22 mini frets",
+      "Maple Fingerboard",
+      "PRS Steel Tremelo",
+      "PRS Vintage Style Locking Tuners",
+      "PRS 635JM Single Coil Pickups"
+    ],
+    "type": "Electric",
+    "range": "Low"
+  },
+  {
+    "image": "img/redprs.jpg",
+    "title": "PRS Custom 24 Wood Library West Coast Electric Guitar (Red Tiger Burst)",
+    "price": "$4,430 USD",
+    "description": "This is a beautiful Custom 24 solid body model with a Red Tiger finish over a West Coast flame maple to, with a full rosewood neck and a comfortable Pattern Regular neck profile.",
+    "features": [
+      "Natural masked binding",
+      "25\" Scale Length",
+      "PRS 85/15 humbucker pickups",
+      "5-way pickup switch",
+      "PRS Phase III Locking Tuners",
+      "PRS Patented Tremelo Bridge"
+    ],
+    "type": "Electric",
+    "range": "High"
+  },
+  {
+    "image": "img/ibanezaz.jpg",
+    "title": "Ibanez AZ-2204 Prestige Electric Guitar (Ice Blue Metallic)",
+    "price": "$1,999 USD",
+    "description": "The latest addition to the fairly new line of 2018 AZ guitar models. A refreshing take on the brands tried and tested method for moderninity and playability that adds a touch of classic styling. With a smooth oval neck profile, a well balanced asymmetrical body shape, the neck heel for easy upper fret access and seamless versitility, this guitar is easily one of the best on the market",
+    "features": [
+      "S-TECH WOOD Roasted Maple Fretboard w/Luminescent side dot inlay",
+      "Jumbo Stainless Steel Frets",
+      "Seymour Duncan Hyperion Pickups",
+      "Gotoh H.A.P-M Locking Tuners",
+      "Dyna-Mix 9 Switching System w/Alter Switch"
+    ],
+    "type": "Electric",
+    "range": "Low"
+  },
+  {
+    "image": "img/ultrabass.jpg",
+    "title": "Fender American Ultra Precision Electric Bass (Aged Natural)",
+    "price": "$1,999 USD",
+    "description": "When it comes to demanding the ultimate in precision, performance and tone, the American Ultra series is unmatched as far as bass guitars go. This bass features a unique \"Modern D\" neck profile with Ultra rolled fingerboard edges for extreme comfortability. A versitle, state-of-the-art instrument will inspire you to push your playing to new heights.",
+    "features": [
+      "Alder or Ash Body",
+      "Ultra Noiseless Vintage split coil P Bass pickup",
+      "Ultra Noiseless Vintage single-coil Jazz Bass Pickup",
+      "21 Medium-Jumbo frets",
+      "Rosewood Fingerboard"
+    ],
+    "type": "Bass",
+    "range": "Low"
+  },
+  {
+    "image": "img/warwickstreamer.jpeg",
+    "title": "Warwick Custom Shop Streamer Stage I 4-String Electric Bass (Natural Oil)",
+    "price": "$3,999 USD",
+    "description": "The Warwick Streamer Stage is one of the one of the most popular bass designs in the world. Handmade in Germany by Warwick's finest luthiers, its fluid languid lines in conjunction with an impeccable wood selection makes this instrument a marvel of bass craftmanship.",
+    "features": [
+      "24 Jumbo Stainless Steel Frets",
+      "Wenge Fingerboard w/Luminescent side dots",
+      "AAA Flame Maple",
+      "Active MEC Pickups",
+      "Natural Oil Finish"
+    ],
+    "type": "Bass",
+    "range": "High"
+  },
+  {
+    "image": "img/ibanezbtb.jpg",
+    "title": "Ibanez Premium BTB1906SM Electric Bass (Surreal Black Burst)",
+    "price": "$1,899 USD",
+    "description": "This 6-string powerhouse is among some of the finest bass guitars you can find for a more affordable price compared to most of the Premium line. This instrument's boutique heritage strikes you right away with it's stunning spalted maple top and sleek panga panga/purpleheart through neck. The BTB1906SM delivers monsterous tone backed by impressive sustain and stability.",
+    "features": [
+      "7-piece Graphite Reinforced Neck",
+      "Aguilar DCB Dual-Ceramic-Magnet Pickups",
+      "MR5S Bridge",
+      "24 Stainless Steel Medium Frets",
+      "Custom Ibanez Electronics w/3-Band EQ"
+    ],
+    "type": "Bass",
+    "range": "Low"
+  },
+  {
+    "image": "img/prsgrainger.webp",
+    "title": "PRS Grainger 10 Top Electric Bass (Charcoal Burst)",
+    "price": "$4,730 USD",
+    "description": "The Grainger 4 is the evolution of PRS's Private Stock Gary Grainger (Rod Stewart) Bass line. He collaborated with many bass artist including Wyzard (Mother's Finest) and Kevin Walker (Justin Timberlake), to create a Core PRS bass with all the character and quality of Gary's models but with a more universal feel.",
+    "features": [
+      "Flame Maple top",
+      "GG 4 Treble and Bass Pickups",
+      "Rosewood Fretboard",
+      "Mahogany Back",
+      "Maple Neck"
+    ],
+    "type": "Bass",
+    "range": "High"
+  },
+  {
+    "image": "img/martinamber.jpg",
+    "title": "Martin D-28 Ambertone Acoustic Guitar (Natural)",
+    "price": "$3,099 USD",
+    "description": "The D-28 is the Dreadnought by which all others are judged. Constructed of solid East Indian roasewood back and sides, Sitka spruce top and mahogany neck, this instrument has been a favorite of artists ranging from Hank Williams Sr. to Jimmy Page. Massive bass response balanced with articulate highs make this a must-have for every guitarist.",
+    "features": [
+      "20 Stainless Steel Frets",
+      "Polished Gloss Back and Sides",
+      "Stain Neck Finish",
+      "Chrome Tuning Machines",
+      "Dovetail Neck Joint"
+    ],
+    "type": "Acoustic",
+    "range": "High"
+  },
+  {
+    "image": "img/taylorvclass2.jpg",
+    "title": "Taylor 814CE V-Class Grand Auditorium Acoustic Electric (Natural)",
+    "price": "$3,499 USD",
+    "description": "Extraordinary character, perfect balance, and rich tone set the Taylor 814CE V-Class Grand Auditorium apart from the common acoustic guitar. Not only does the V-class bracing enhance the volume and sustain, it also changes the soundboard movement that improves the guitar's natural intonation, acting as a new sonic engine for the guitar. With deep lows and sparkling highs this guitar is more than appreciated.",
+    "features": [
+      "Sitka Spruce Top",
+      "V-Class Bracing with Relief Rout",
+      "Striped Ebony Pickguard",
+      "Mother of Pearl Taylor Logo",
+      "East Indian Rosewood Back and Sides"
+    ],
+    "type": "Acoustic",
+    "range": "High"
+  },
+  {
+    "image": "img/breedloveoregon2.jpg",
+    "title": "Breedlove Oregon Concert CE (Bourbon Myrtlewood)",
+    "price": "$2,299 USD",
+    "description": "The Breedlove Oregon Concert is a versitle play style acoustic-electric guitar, that has become an instant favorite with players around the world. The Breedlove sound comes through bold and clean with balanced bass, mids, and highs reminiscent of rosewood. Featuring sustainability sourced all solid exotic and native tonewoods handcrafted by skilled luthiers who are sensitive to the needs of the earth as they are to building the best sounding and playing guitars available anywhere.",
+    "features": [
+      "20 Frets",
+      "African Ebony Fretboard",
+      "Myrtlewood Back and Sides",
+      "LR Baggs EAS VTC Pickups",
+      "Delta Bridge, African Ebony"
+    ],
+    "type": "Acoustic",
+    "range": "Low"
+  },
+  {
+    "image": "img/alverezyairi.jpg",
+    "title": "Alvarez Yairi FYM66HD Masterworks Acoustic Guitar (Honduran Mahogany)",
+    "price": "$2,499 USD",
+    "description": "The Alvarez Yairi FYM66HD Masterworks Acoustic Guitar is part of the Honduran Series and considered to be the best guitars Alvarez has ever made. Incredible sonic tonality thats full and powerful with huge clear bass and mids. You will lose hours in your day playing one of this amazing instrument.",
+    "features": [
+      "40 Year Seasoned Wood",
+      "Handcarved FST2 Bracing",
+      "Real Bone Nut and Saddle",
+      "Gotoh 510's Gold w/Ebony Buttons",
+      "One Piece Mahogany Neck"
+    ],
+    "type": "Acoustic",
+    "range": "Low"
+  }
+]

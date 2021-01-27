@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap");
+
+footer {
+  font-family: "Cinzel", serif;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin-top: auto;
+  /* position: fixed;
+  bottom: 0; */
+}
+
+.bottom-text {
+  margin-bottom: 0;
+}
+
+.top-text {
+  margin-top: 0;
+}
+
+.fa-facebook-f,
+.fa-instagram,
+.fa-twitter,
+.fa-youtube {
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.fa-facebook-f:hover,
+.fa-instagram:hover,
+.fa-twitter:hover,
+.fa-youtube:hover {
+  background-color: grey;
+  padding-left: 10px;
+  padding-right: 10px;
+}

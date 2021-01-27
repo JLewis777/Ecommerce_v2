@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap");
+
+.contactbox {
+  font-family: "Cinzel", serif;
+  text-align: center;
+  border-radius: 5px;
+  background-color: grey;
+  padding: 10px;
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* The float property allows me to posistion this element a certain way (left, right, none) */
+.column1 {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+}
+/* The clear property specifies which sides of an element floating items are allowed to float (left, right, both) */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="email"] {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="tel"] {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.backdrop {
+  background-image: url(contactback2.jpg);
+  background-size: cover;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+label {
+  display: block;
+}
+
+textarea {
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  .column2 img {
+    display: none;
+  }
+
+  .contactbox {
+    width: 340px;
+    /* margin: 0 auto; */
+  }
+
+  .row {
+    text-align: center;
+    float: none;
+    /* margin: 0 auto; */
+  }
+
+  /* form {
+    margin: 0 auto;
+    display: block;
+  } */
+
+  .column1 {
+    float: none;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1023px) {
+  .column2 img {
+    display: none;
+  }
+
+  .contactbox {
+    width: 80%;
+    /* margin: 0 auto; */
+  }
+
+  .row {
+    text-align: center;
+    float: none;
+    /* margin: 0 auto; */
+  }
+
+  /* form {
+    margin: 0 auto;
+    display: block;
+  } */
+
+  .column1 {
+    float: none;
+    margin: 0 auto;
+  }
+}

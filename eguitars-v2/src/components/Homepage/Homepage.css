@@ -1,0 +1,30 @@
+.Homepage {
+  text-align: center;
+}
+
+/* @media (max-width: 800px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+} */
+
+@media (min-width: 800px) {
+  .hero {
+    min-height: 100vh;
+  }
+
+  .hero h3 {
+    padding-top: 200px;
+  }
+}

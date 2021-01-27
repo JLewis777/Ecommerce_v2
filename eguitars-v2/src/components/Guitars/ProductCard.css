@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500;900&display=swap");
+
+.card {
+  max-width: 500px;
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+  margin: 10px;
+  font-family: "Cinzel", sans-serif;
+}
+
+.all-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.prices {
+  color: purple;
+}
+
+.btns {
+  background-color: purple;
+  border: 2px solid black;
+  color: whitesmoke;
+  font-family: "Cinzel", sans-serif;
+  font-weight: bold;
+  padding: 20px;
+  margin: 10px;
+  width: 150px;
+  text-align: center;
+}
+
+.btns:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+.images {
+  height: 450px;
+  width: 350px;
+}
+
+.filter {
+  text-align: left;
+  width: 500px;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.filter p {
+  font-family: "Cinzel", sans-serif;
+  color: purple;
+}
+
+.text1 {
+  margin-right: 10px;
+}
+
+.text2 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media (max-width: 767px) {
+  .filter {
+    text-align: left;
+    width: 300px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+}

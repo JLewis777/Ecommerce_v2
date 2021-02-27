@@ -1,4 +1,4 @@
-import { logDOM, render } from "@testing-library/react";
+// import { logDOM, render } from "@testing-library/react";
 import React, { Component } from "react";
 import Data from "../../assets/data/products.json";
 import "./ProductCard.css";
@@ -13,6 +13,7 @@ class ProductCard extends Component {
     };
   }
 
+  // Type Filter
   changeTypeHandler = (event) => {
     let value = event.target.value;
     // let newGuitars = [...this.state.products];
@@ -31,6 +32,7 @@ class ProductCard extends Component {
     }
   };
 
+  // Price Filter
   changePriceHandler = (event) => {
     let value = event.target.value;
     if (value === "High") {
@@ -63,20 +65,13 @@ class ProductCard extends Component {
             <option value="Low">Lowest Price</option>
           </select>
         </div>
+
         <div className="all-cards">
-          {/* <h2>{Data[0].title}</h2>
-          <p>{Data[0].price}</p>
-          <p>{Data[0].features}</p> */}
-
           {this.state.products.map((gt, i) => (
-            /* {const IMG = (imgName) => {
-            return require(`../../assets/img/${imgName}`)
-            }} */
-
             <div key={i} className="card">
               <h2>{gt.title}</h2>
               <p className="prices">{gt.price}</p>
-              <img className="images" src={gt.image} />
+              <img className="images" src={gt.image} alt="guitarpictures" />
               <p>{gt.description}</p>
               <ul>
                 {gt.features.map((ft, j) => (

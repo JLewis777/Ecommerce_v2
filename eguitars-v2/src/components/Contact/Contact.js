@@ -12,30 +12,31 @@ class Contact extends Component {
   //   super();
   //   this.validateForm = this.validateForm.bind(this);
   // }
-  validateForm = (e) => {
-    e.preventDefault();
-    let x = document.forms["myForm"]["firstname"].value;
-    let y = document.forms["myForm"]["lastname"].value;
-    let z = document.forms["myForm"]["email"].value;
-    let a = document.forms["myForm"]["phone"].value;
-    let b = document.forms["myForm"]["subject"].value;
-    if (x == "") {
-      alert("You must enter your first name");
-      return false;
-    } else if (y == "") {
-      alert("You must enter your last name");
-      return false;
-    } else if (z == "") {
-      alert("You must enter your email");
-      return false;
-    } else if (a == "") {
-      alert("You must enter a phone number");
-      return false;
-    } else if (b == "") {
-      alert("You must enter a message");
-      return false;
-    }
-  };
+  // validateForm = (e) => {
+  //   e.preventDefault();
+  //   let x = document.forms["myForm"]["firstname"].value;
+  //   let y = document.forms["myForm"]["lastname"].value;
+  //   let z = document.forms["myForm"]["email"].value;
+  //   // let a = document.forms["myForm"]["phone"].value;
+  //   let b = document.forms["myForm"]["subject"].value;
+  //   if (x === "") {
+  //     alert("You must enter your first name");
+  //     return false;
+  //   } else if (y === "") {
+  //     alert("You must enter your last name");
+  //     return false;
+  //   } else if (z === "") {
+  //     alert("You must enter your email");
+  //     return false;
+  //     // } else if (a === "") {
+  //     //   alert("You must enter a phone number");
+  //     //   return false;
+  //   } else if (b === "") {
+  //     alert("You must enter a message");
+  //     return false;
+  //   }
+  //   // e.target.reset();
+  // };
 
   render() {
     return (
@@ -51,15 +52,16 @@ class Contact extends Component {
           </div>
           <div className="row">
             <div className="column2">
-              <img src={contactPic} width="400" height="500" />
+              <img src={contactPic} alt="selfie" width="400" height="500" />
             </div>
 
             <div className="column1">
               <form
-                noValidate
-                name="myForm"
-                action="/action_page.php"
-                onSubmit={this.validateForm}
+                // noValidate
+                // name="myForm"
+                action="http://localhost:4000/Contact"
+                method="POST"
+                // onSubmit={this.validateForm}
               >
                 <label for="fname">First Name</label>
                 <input
@@ -82,27 +84,28 @@ class Contact extends Component {
                   name="email"
                   placeholder="Your Email.."
                 />
-                <label for="phone">Your phone number</label>
+                {/* <label for="phone">Your phone number</label>
                 <input
                   type="tel"
                   id="phone"
                   name="phone"
                   pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
-                />
-                <label for="country">Where are you from?</label>
+                /> */}
+                {/* <label for="country">Where are you from?</label>
                 <select id="country" name="country">
                   <option value="usa">USA</option>
                   <option value="united kingdom">United Kingdom</option>
                   <option value="canada">Canada</option>
-                </select>
+                </select> */}
                 <label for="subject">Subject</label>
                 <textarea
+                  type="text"
                   id="subject"
                   name="subject"
                   placeholder="Your message.."
                   // style="height:170px"
                 ></textarea>
-                <input type="submit" value="Submit" />
+                <input type="submit" value="Submit"></input>
               </form>
             </div>
           </div>

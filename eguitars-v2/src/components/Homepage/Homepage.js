@@ -3,7 +3,7 @@ import React from "react";
 import HomeHero from "../HomeHero/HomeHero";
 import Navbar from "../Global/Navbar";
 import Footer from "../Global/Footer";
-import Slideshow from "../../Slideshow/Slideshow";
+// import Slideshow from "../../Slideshow/Slideshow";
 
 const homepage = () => (
   <>

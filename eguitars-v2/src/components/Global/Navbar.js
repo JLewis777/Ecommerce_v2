@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import logo from "./Ericzanderlogo3.jpeg";
-import { Route, BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const navbar = () => (
   <header>
